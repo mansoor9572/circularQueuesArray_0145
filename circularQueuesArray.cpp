@@ -74,4 +74,12 @@ public:
             return;
         }
 
-        
+        cout << "\nElements in the queue are:\n";
+
+        // Case 1: FRONT is before REAR (normal order)
+        if (FRONT <= REAR)
+        {
+            for (int i = FRONT; i <= REAR; i++)
+                cout << queue_array[i] << " ";
+        }
+       
