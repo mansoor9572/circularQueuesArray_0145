@@ -99,4 +99,13 @@ int main()
     Queue q;
     char ch;
 
-   
+    while (true)
+    {
+        cout << "\n=====================\n";
+        cout << "Menu\n";
+        cout << "1. Insert\n";
+        cout << "2. Delete\n";
+        cout << "3. Display\n";
+        cout << "4. Exit\n";
+        cout << "Enter your choice (1-4): ";
+        
