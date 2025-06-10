@@ -65,4 +65,13 @@ public:
             FRONT = FRONT + 1;        // Move front forward
     }
 
-   
+    void display()
+    {
+        // Check if queue is empty
+        if (FRONT == -1)
+        {
+            cout << "Queue is empty\n";
+            return;
+        }
+
+        
