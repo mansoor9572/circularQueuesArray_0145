@@ -115,4 +115,7 @@ int main()
         case '1':
             q.insert();    // Insert element into queue
             break;
+        case '2':
+            q.remove();    // Remove element from queue
+            break;
         
