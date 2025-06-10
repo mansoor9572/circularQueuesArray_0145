@@ -121,4 +121,11 @@ int main()
         case '3':
             q.display();   // Display all elements in queue
             break;
-        
+        case '4':
+            return 0;      // Exit the program
+        default:
+            cout << "Invalid option!!\n";
+            break;
+        }
+    }
+}
