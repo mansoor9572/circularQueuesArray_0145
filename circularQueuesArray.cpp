@@ -82,4 +82,12 @@ public:
             for (int i = FRONT; i <= REAR; i++)
                 cout << queue_array[i] << " ";
         }
+        else
+        {
+            // Case 2: Circular wrap-around
+            for (int i = FRONT; i < max; i++)
+                cout << queue_array[i] << " ";
+            for (int i = 0; i <= REAR; i++)
+                cout << queue_array[i] << " ";
+        }
        
