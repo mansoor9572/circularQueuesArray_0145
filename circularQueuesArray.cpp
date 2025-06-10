@@ -111,4 +111,8 @@ int main()
         cin >> ch;
 
         switch (ch)
+        {
+        case '1':
+            q.insert();    // Insert element into queue
+            break;
         
