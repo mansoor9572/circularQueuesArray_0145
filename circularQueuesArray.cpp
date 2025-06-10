@@ -28,4 +28,13 @@ public:
             return;
         }
 
-       
+        // First element insertion
+        if (FRONT == -1)
+        {
+            FRONT = 0;
+            REAR = 0;
+        }
+        else if (REAR == max - 1)     // Wrap around
+            REAR = 0;
+        else
+            REAR = REAR + 1;
