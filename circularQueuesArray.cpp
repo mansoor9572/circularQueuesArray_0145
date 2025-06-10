@@ -51,4 +51,12 @@ public:
             return;
         }
 
+        cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
+
+        // Reset queue if it becomes empty
+        if (FRONT == REAR)
+        {
+            FRONT = -1;
+            REAR = -1;
+        }
        
