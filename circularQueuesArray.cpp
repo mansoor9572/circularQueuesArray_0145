@@ -61,4 +61,8 @@ public:
         }
         else if (FRONT == max - 1)    // Wrap around
             FRONT = 0;
-       
+        else
+            FRONT = FRONT + 1;        // Move front forward
+    }
+
+   
