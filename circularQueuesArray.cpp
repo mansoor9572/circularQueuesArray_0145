@@ -90,4 +90,13 @@ public:
             for (int i = 0; i <= REAR; i++)
                 cout << queue_array[i] << " ";
         }
-       
+        cout << endl;
+    }
+};
+
+int main()
+{
+    Queue q;
+    char ch;
+
+   
