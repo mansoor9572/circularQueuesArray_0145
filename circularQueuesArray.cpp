@@ -118,4 +118,7 @@ int main()
         case '2':
             q.remove();    // Remove element from queue
             break;
+        case '3':
+            q.display();   // Display all elements in queue
+            break;
         
