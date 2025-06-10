@@ -108,4 +108,7 @@ int main()
         cout << "3. Display\n";
         cout << "4. Exit\n";
         cout << "Enter your choice (1-4): ";
+        cin >> ch;
+
+        switch (ch)
         
