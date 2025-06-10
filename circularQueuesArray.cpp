@@ -39,5 +39,16 @@ public:
         else
             REAR = REAR + 1;
 
-        queue_array[REAR] = num;      
-    
+        queue_array[REAR] = num;      // Insert element at rear
+    }
+
+    void remove()
+    {
+        // Check for underflow condition
+        if (FRONT == -1)
+        {
+            cout << "Queue underflow\n";
+            return;
+        }
+
+       
